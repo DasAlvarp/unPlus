@@ -3,6 +3,7 @@ package com.dasalvarp.unobtaniumplus;
 
 
 import com.dasalvarp.unobtaniumplus.handler.ConfigurationHandler;
+import com.dasalvarp.unobtaniumplus.init.ModBlocks;
 import com.dasalvarp.unobtaniumplus.init.ModItems;
 import com.dasalvarp.unobtaniumplus.proxy.IProxy;
 import com.dasalvarp.unobtaniumplus.reference.Reference;
@@ -38,6 +39,9 @@ public class UnobtaniumPlus {
 
         //resgister assets.textures.items
         ModItems.init();
+
+        //register blocks
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
