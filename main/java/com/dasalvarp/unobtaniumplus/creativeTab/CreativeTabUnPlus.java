@@ -10,7 +10,7 @@ import net.minecraft.item.Item;
  */
 public class CreativeTabUnPlus
 {
-    public static final CreativeTabs UNPLUS_TAB = new CreativeTabs(Reference.MODID)
+    public static final CreativeTabs UNPLUS_TAB = new CreativeTabs(Reference.MODID.toLowerCase())
     {
         @Override
         public Item getTabIconItem()
@@ -18,9 +18,6 @@ public class CreativeTabUnPlus
             return ModItems.FirestoneGem;
         }
 
-        public String getTranslatedTabLabel()
-        {
-            return "Unobtanium Plus";
-        }
+
     };
 }
