@@ -1,9 +1,11 @@
 package com.dasalvarp.unobtaniumplus.item;
 
+import com.dasalvarp.unobtaniumplus.creativeTab.CreativeTabUnPlus;
 import com.dasalvarp.unobtaniumplus.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
@@ -18,6 +20,7 @@ public class ItemGeneric extends Item
     {
         super();
         this.setMaxStackSize(64);
+        this.setCreativeTab(CreativeTabUnPlus.UNPLUS_TAB);
 
     }
 

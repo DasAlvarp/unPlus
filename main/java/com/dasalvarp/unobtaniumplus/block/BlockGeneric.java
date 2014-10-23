@@ -1,5 +1,6 @@
 package com.dasalvarp.unobtaniumplus.block;
 
+import com.dasalvarp.unobtaniumplus.creativeTab.CreativeTabUnPlus;
 import com.dasalvarp.unobtaniumplus.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -15,11 +16,15 @@ public class BlockGeneric extends Block
     public BlockGeneric(Material material )
     {
         super(material);
+        this.setCreativeTab(CreativeTabUnPlus.UNPLUS_TAB);
+
     }
 
     public BlockGeneric()
     {
         super(Material.rock);//super's like this, but a bit more abstracty. I think.
+        this.setCreativeTab(CreativeTabUnPlus.UNPLUS_TAB);
+
     }
 
     @Override
