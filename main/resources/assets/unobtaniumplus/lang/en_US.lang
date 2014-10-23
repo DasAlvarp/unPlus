@@ -1,3 +1,13 @@
+
+
+#Items
 item.unobtaniumplus:FirestoneGem.name=Firestone Gem
 tile.unobtaniumplus:oreFirestone.name=Firestone Ore
+
+#Creative Tab
 itemGroup.unobtaniumplus=Unobtanium Plus
+
+#Keys/bindings
+keys.unobtaniumplus.category=UnobtaniumPlus
+keys.unobtaniumplus.charge=Charge
+keys.unobtaniumplus.release=Release

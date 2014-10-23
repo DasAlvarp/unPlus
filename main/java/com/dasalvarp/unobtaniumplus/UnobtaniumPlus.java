@@ -2,6 +2,7 @@ package com.dasalvarp.unobtaniumplus;
 
 
 
+import com.dasalvarp.unobtaniumplus.client.handler.KeyInputEventHandler;
 import com.dasalvarp.unobtaniumplus.handler.ConfigurationHandler;
 import com.dasalvarp.unobtaniumplus.init.ModBlocks;
 import com.dasalvarp.unobtaniumplus.init.ModItems;
@@ -40,16 +41,27 @@ public class UnobtaniumPlus {
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
 
+        //register keyBindings
+        proxy.registerKeyBindings();
+
+
         //resgister assets.textures.items
         ModItems.init();
 
         //register blocks
         ModBlocks.init();
+
+
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+
+
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+
+
         Recepies.init();
 
         LogHelper.info("Init complete");
