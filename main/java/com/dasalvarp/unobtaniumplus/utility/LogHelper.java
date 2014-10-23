@@ -1,4 +1,4 @@
-package com.dasalvarp.unobtaniumplus.unobtainium.utility;
+package com.dasalvarp.unobtaniumplus.utility;
 
 import com.dasalvarp.unobtaniumplus.reference.Reference;
 import cpw.mods.fml.common.FMLLog;

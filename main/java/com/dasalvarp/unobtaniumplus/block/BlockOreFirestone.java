@@ -5,15 +5,15 @@ import net.minecraft.block.Block;
 /**
  * Created by Alvarp on 10/22/2014.
  */
-public class BlockFirestoneOre extends BlockGeneric
+public class BlockOreFirestone extends BlockGeneric
 {
-    public BlockFirestoneOre()
+    public BlockOreFirestone()
     {
         super();
-        this.setBlockName("FirestoneOre");
+        this.setBlockName("oreFirestone");
         this.setHardness(5.0F);
         this.setResistance(10.0F);
-        this.setBlockTextureName("FirestoneOre");
+        this.setBlockTextureName("oreFirestone");
     }
 
 }

@@ -1,6 +1,6 @@
 package com.dasalvarp.unobtaniumplus.init;
 
-import com.dasalvarp.unobtaniumplus.block.BlockFirestoneOre;
+import com.dasalvarp.unobtaniumplus.block.BlockOreFirestone;
 import com.dasalvarp.unobtaniumplus.block.BlockGeneric;
 import com.dasalvarp.unobtaniumplus.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -12,7 +12,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @GameRegistry.ObjectHolder(Reference.MODID)
 public class ModBlocks
 {
-    public static final BlockGeneric firestoneOre = new BlockFirestoneOre();
+    public static final BlockGeneric firestoneOre = new BlockOreFirestone();
     public static void init()
     {
         GameRegistry.registerBlock(firestoneOre, "FirestoneOre");
