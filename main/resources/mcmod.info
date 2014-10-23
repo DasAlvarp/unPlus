@@ -1,0 +1,17 @@
+[
+{
+  "modid": "unobtaniumplus",
+  "name": "UnobtainiumPlus",
+  "description": "Adding various even less possible substances to Minecraft.",
+  "version": "1.7.10-0.0.1a",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [ "alvarogudis" ],
+  "credits": "also, people who aren't DasAlvarp",
+  "logoFile": "",
+  "parent":"",
+  "screenshots": [],
+  "dependencies": []
+}
+]
