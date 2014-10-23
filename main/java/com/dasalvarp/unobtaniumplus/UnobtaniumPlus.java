@@ -5,6 +5,7 @@ package com.dasalvarp.unobtaniumplus;
 import com.dasalvarp.unobtaniumplus.handler.ConfigurationHandler;
 import com.dasalvarp.unobtaniumplus.init.ModBlocks;
 import com.dasalvarp.unobtaniumplus.init.ModItems;
+import com.dasalvarp.unobtaniumplus.item.Recepies;
 import com.dasalvarp.unobtaniumplus.proxy.IProxy;
 import com.dasalvarp.unobtaniumplus.reference.Reference;
 import com.dasalvarp.unobtaniumplus.utility.LogHelper;
@@ -49,19 +50,15 @@ public class UnobtaniumPlus {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        Recepies.init();
 
+        LogHelper.info("Init complete");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)//veeery basic structure of a mod.
     {
 
-
-        for(String oreName : OreDictionary.getOreNames())
-        {
-            LogHelper.info(oreName);
-            OreDictionary.getOres("stickWood");//returns all wood sticks.
-        }
         LogHelper.info("post init complete");
 
     }
