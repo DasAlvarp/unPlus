@@ -9,7 +9,7 @@ public class ItemFirestoneGem  extends ItemGeneric{
     {
         super();
         this.setMaxStackSize(64);
-        this.setUnlocalizedName("FirestoneGem");
+        this.setUnlocalizedName("firestoneGem");
     }
 
 
